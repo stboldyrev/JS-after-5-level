@@ -9,50 +9,41 @@
     <!-- #1 -->
     <!-- Дан инпут, кнопка и три абзаца. В инпут вводится дата в формате 2025-12-31. По нажатию на кнопку выведите в первый абзац год, во второй абзац - месяц, в третий день. -->
     <div class="task_5-5-1">
-      <input
-        type="text"
-        id="inputDate"
-        placeholder="Введите дату в формате YYYY-MM-DD"
-      />
-      <button id="subBtn1">Показать</button>
-      <p id="year"></p>
-      <p id="month"></p>
-      <p id="day"></p>
+      <input type="text" id="inputDate" />
+      <!-- <input type="date" id="inputDate" /> -->
+      <button id="subBtn">Click</button>
+      <p id="paragraphYear"></p>
+      <p id="paragraphMonth"></p>
+      <p id="paragraphDay"></p>
     </div>
-
     <!-- #2 -->
     <!-- Даны два инпута и кнопка. В инпуты вводятся числа. По нажатию на кнопку заполните массив целыми числами от первого введеного числа до последнего. -->
-    <div class="task_5-5-2">
-      <input type="number" id="inputNum1" placeholder="Первое число" />
-      <input type="number" id="inputNum2" placeholder="Второе число" />
-      <button id="subBtn2">Заполнить массив</button>
-      <p id="result2"></p>
-    </div>
 
+    <div class="task_5-5-2">
+      <input type="number" id="inputNumFirst" />
+      <input type="number" id="inputNumLast" />
+      <button id="subBtn">Click</button>
+    </div>
     <!-- #3 -->
     <!-- Дан инпут, абзац и кнопка. В инпут вводится строка. По нажатию на кнопку выведите в абзац последний символ введенной строки. -->
     <div class="task_5-5-3">
-      <input type="text" id="inputStr" placeholder="Введите строку" />
-      <button id="subBtn3">Последний символ</button>
-      <p id="result3"></p>
+      <input type="text" id="inputText" />
+      <button id="subBtn">Click</button>
+      <p id="result"></p>
     </div>
-
     <!-- #4 -->
     <!-- Дан абзац, в котором записано число 1. По нажатию на кнопку увеличивайте число в абзаце на единицу. -->
-    <div class="task_5-5-4">
-      <p id="number">1</p>
-      <button id="subBtn4">Увеличить</button>
-    </div>
 
+    <div class="task_5-5-4">
+      <p id="paragraph">1</p>
+      <button id="subBtn">Click</button>
+    </div>
     <!-- #5 -->
     <!-- Дан инпут и абзац. В инпут вводится строка со словами. По потери фокуса выведите в абзац количество слов во введенной строке. -->
+
     <div class="task_5-5-5">
-      <input
-        type="text"
-        id="inputWords"
-        placeholder="Введите строку со словами"
-      />
-      <p id="result5"></p>
+      <input type="text" id="inputText" />
+      <p id="result"></p>
     </div>
     <script src="index.js"></script>
   </body>

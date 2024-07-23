@@ -10,55 +10,44 @@
     <!-- Даны теги li с числами, инпут и кнопка. По нажатию на кнопку найдите сумму чисел и выведите их в инпут. -->
     <div class="task_5-7-1">
       <ul>
-        <li>5</li>
-        <li>10</li>
-        <li>15</li>
-        <li>20</li>
+        <li class="liNum">1</li>
+        <li class="liNum">2</li>
+        <li class="liNum">3</li>
       </ul>
-      <input type="text" id="sumInput" readonly />
-      <button id="subBtn1">Посчитать сумму</button>
+      <input type="text" id="inputLi" />
+      <button id="subBtn">Click</button>
     </div>
-
     <!-- #2 -->
     <!-- Даны теги li с числами и кнопка. По нажатию на кнопку увеличьте все числа в тегах li на единицу. -->
     <div class="task_5-7-2">
       <ul>
-        <li>5</li>
-        <li>10</li>
-        <li>15</li>
-        <li>20</li>
+        <li class="liNum">1</li>
+        <li class="liNum">2</li>
+        <li class="liNum">3</li>
       </ul>
-      <button id="subBtn2">Увеличить на 1</button>
+      <button id="subBtn">Click</button>
     </div>
-
     <!-- #3 -->
     <!-- Дан инпут, абзац и кнопка. В инпут вводится число. По нажатию на кнопку получите массив делителей числа и выведите их в абзац через запятую. -->
     <div class="task_5-7-3">
-      <input type="number" id="inputNumber" />
-      <button id="subBtn3">Получить делители</button>
-      <p id="divisors"></p>
+      <input type="number" id="inputNum" />
+      <button id="subBtn">Click</button>
+      <p id="result"></p>
     </div>
-
     <!-- #4 -->
     <!-- Даны абзацы с текстом. Сделайте так, чтобы по нажатию на любой абзац его текст переворачивался. -->
-    <div class="task_5-7-4">
-      <p>Текст 1</p>
-      <p>Текст 2</p>
-      <p>Текст 3</p>
-    </div>
 
+    <div class="task_5-7-4">
+      <p class="paragraphReverse">Hello</p>
+      <p class="paragraphReverse">World</p>
+      <p class="paragraphReverse">Mama</p>
+    </div>
     <!-- #5 -->
     <!-- В инпут вводится число из 6-ти цифр. По нажатию на кнопку проверьте, равна ли сумма первых трех цифр сумме вторых трех цифр. -->
     <div class="task_5-7-5">
-      <input
-        type="number"
-        id="numberInput"
-        maxlength="6"
-        minlength="6"
-        placeholder="Введите число из 6 цифр"
-      />
-      <button id="subBtn5">Проверить</button>
-      <p id="result5"></p>
+      <input type="number" id="inputNum" />
+      <button id="subBtn">Click</button>
+      <p id="result"></p>
     </div>
     <script src="index.js"></script>
   </body>

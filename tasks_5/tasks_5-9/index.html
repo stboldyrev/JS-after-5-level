@@ -8,38 +8,35 @@
   <body>
     <!-- #1 -->
     <!-- Дан массив с числами, кнопка и инпут. По нажатию на кнопку запишите в инпут все числа из массива, разделив их запятыми. -->
-    <div class="task_5-9-1">
-      <button id="showNumbersBtn">Показать числа</button>
-      <input type="text" id="numbersInput" readonly />
-    </div>
 
+    <div class="task_5-9-1">
+      <input type="text" id="inputArr" />
+      <button id="subBtn">Click</button>
+    </div>
     <!-- #2 -->
     <!-- Даны абзацы с текстом. Сделайте так, чтобы по нажатию на любой абзац его текст красился в красный цвет. -->
     <div class="task_5-9-2">
-      <p>Абзац 1</p>
-      <p>Абзац 2</p>
-      <p>Абзац 3</p>
+      <p class="paragraphs">Paragraph 1</p>
+      <p class="paragraphs">Paragraph 2</p>
+      <p class="paragraphs">Paragraph 3</p>
     </div>
-
     <!-- #3 -->
     <!-- Дан инпут. В него вводится число. Если введено нечетное число, то покрасьте границу инпута в красный цвет, а если четное - то в зеленый. -->
     <div class="task_5-9-3">
-      <input type="number" id="numberInput" />
+      <input type="number" id="inputNum" />
     </div>
-
     <!-- #4 -->
     <!-- В инпут вводится дата в формате 2025-12-31. По потери фокуса сделайте так, чтобы в инпуте стала дата в формате 31.12.25. -->
     <div class="task_5-9-4">
-      <input type="text" id="dateInput" />
+      <input type="text" id="inputDate" />
     </div>
-
     <!-- #5 -->
     <!-- Дан пустой список ul и текстареа. В него вводится текст со знаками препинания. По потери фокуса запишите каждое предложение из текста в свой тег li. -->
-    <div class="task_5-9-5">
-      <textarea id="textInput" rows="4"></textarea>
-      <ul id="sentencesList"></ul>
-    </div>
 
+    <div class="task_5-9-5">
+      <ul id="emptyUl"></ul>
+      <textarea id="textArea"></textarea>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
