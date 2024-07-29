@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+  </head>
+  <body>
+    <!-- #1 -->
+    <!-- Дан список ul. Сделайте так, чтобы по клику на любую li она удалялась из списка. -->
+    <div class="task_6-4-1">
+      <ul>
+        <li class="items">Paragraph 1</li>
+        <li class="items">Paragraph 2</li>
+        <li class="items">Paragraph 3</li>
+        <li class="items">Paragraph 4</li>
+        <li class="items">Paragraph 5</li>
+      </ul>
+    </div>
+    <!-- #2 -->
+    <!-- Дан список ul и инпут. Сделайте так, чтобы по потери фокуса инпутом его текст становился новым пунктом списка. -->
+
+    <div class="task_6-4-2">
+      <input type="text" id="inputText" />
+      <ul id="list"></ul>
+    </div>
+    <!-- #3 -->
+    <!-- Дана таблица из трех колонок, три инпута и кнопка. Сделайте так, чтобы по клику на кнопку в таблицу добавлялся новый ряд с текстами ячеек из инпутов. -->
+    <div class="task_6-4-3">
+      <table id="table" style="border: 1px solid black">
+        <thead>
+          <tr>
+            <th style="border: 1px solid black">Column 1</th>
+            <th style="border: 1px solid black">Column 2</th>
+            <th style="border: 1px solid black">Column 3</th>
+          </tr>
+        </thead>
+        <tbody style="border: 1px solid black"></tbody>
+      </table>
+      <input type="text" id="input1" placeholder="Enter text for column 1" />
+      <input type="text" id="input2" placeholder="Enter text for column 2" />
+      <input type="text" id="input3" placeholder="Enter text for column 3" />
+      <button id="subBtn">Add Row</button>
+    </div>
+    <!-- #4 -->
+    <!-- Дан инпут и ul. В инпут вводится год. Выведите в список даты всех пятниц 13-е в заданном году. -->
+    <div class="task_6-4-4">
+      <input type="number" id="inputYear" />
+      <button id="subBtn">Click</button>
+      <ul id="list"></ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
