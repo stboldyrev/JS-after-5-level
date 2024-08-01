@@ -82,7 +82,7 @@ subBtn1.addEventListener("click", () => {
   const yearValue = +inputYear.value;
 
   for (let month = 0; month < 12; month++) {
-    const date = new Date(yearValue, month, 13);
+    const date = new Date(Date.UTC(yearValue, month, 13));
     if (date.getDay() === 5) {
       const li = document.createElement("li");
       li.textContent = date.toISOString().split("T")[0];
