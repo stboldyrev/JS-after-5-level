@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- #1 -->
+    <!-- Дана кнопка и список ul. По клику на кнопку добавьте в конец каждой li ссылку, по нажатию на которую текст li будет перечеркиваться (но не текст ссылки). -->
+
+    <div class="task_7-8-1">
+      <button id="subBtn">Click</button>
+      <ul id="list">
+        <li class="items">Paragraph 1</li>
+        <li class="items">Paragraph 2</li>
+        <li class="items">Paragraph 3</li>
+        <li class="items">Paragraph 4</li>
+        <li class="items">Paragraph 5</li>
+      </ul>
+    </div>
+
+    <!-- #2 -->
+    <!-- Дан абзац, содержащий текст со словами. Сделайте так, чтобы по клику на любое слово из этого абзаца, это слово меняло порядок своих букв на обратный. -->
+    <div class="task_7-8-2">
+      <p id="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+    <!-- #3 -->
+    <!-- Дан следующий массив: -->
+    <!-- let users = [
+	{id: 1, name: 'user1', surn: 'surn1', age: 30},
+	{id: 2, name: 'user2', surn: 'surn2', age: 31},
+	{id: 3, name: 'user3', surn: 'surn3', age: 32},
+    ];
+    Выведите элементы этого массива в виде таблицы table так, чтобы каждое поле объекта попало в свой тег td. Сделайте заголовки колонок вашей таблицы. -->
+
+    <div class="task_7-8-3">
+      <button id="subBtn">Click</button>
+      <table id="userTable"></table>
+    </div>
+    <!-- #4 -->
+    <!-- Напишите программу, которая сформирует следующий массив: -->
+    <!-- [
+	'1',
+	'12',
+	'123',
+	'1234',
+	'12345',
+	'1234',
+	'123',
+	'12',
+	'1',
+    ] -->
+    <div class="task_7-8-4">
+      <button id="subBtn">Click</button>
+      <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
