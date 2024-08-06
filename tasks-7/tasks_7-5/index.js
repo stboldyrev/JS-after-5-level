@@ -120,15 +120,12 @@ subBtn1.addEventListener("click", () => {
 
   const translate = (text) => {
     const arr = text.trim().split("");
-    const newArr = [];
-    arr.forEach((letter) => {
-      Object.entries(translitMap).forEach(([key, value]) => {
-        if (letter == key) {
-          letter = value;
-          newArr.push(letter);
-        }
-      });
-    });
+    const newArr = arr.map((letter) => translitMap[letter] || letter);
+    // Object.entries(translitMap).forEach(([key, value]) => {
+    //   if (key === value) {
+    //     newArr.push(value);
+    //   }
+    // });
     return (result.textContent = newArr.join(""));
   };
 
