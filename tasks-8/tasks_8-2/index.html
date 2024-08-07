@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      textarea {
+        width: 300px;
+        height: 100px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- #1 -->
+    <!-- В текстареа вводится текст со словами. По потери фокуса сделайте таблицу, в первой колонке которой будут слова из текста, во второй колонке - количество раз, которое это слово встречается, а в третьей - процентное содержание этого слова в текста. -->
+
+    <div class="task_8-2-1">
+      <textarea id="textArea"></textarea>
+    </div>
+
+    <!-- #2 -->
+    <!-- Дан список ul и кнопка. По нажатию на кнопку отсортируйте пункты списка по возрастанию. -->
+
+    <div class="task_8-2-2">
+      <button id="subBtn">Click</button>
+      <ul id="list">
+        <li class="items">Paragraph 2</li>
+        <li class="items">Paragraph 3</li>
+        <li class="items">Paragraph 1</li>
+        <li class="items">Paragraph 5</li>
+        <li class="items">Paragraph 4</li>
+      </ul>
+    </div>
+
+    <!-- #3 -->
+    <!-- Дан массив, подмассивы которого содержат цифры: -->
+    <!-- [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9],
+    ]
+    Слейте элементы этого массива в числа:
+    [123, 456, 789] -->
+
+    <div class="task_8-2-3">
+      <button id="subBtn">Click</button>
+    </div>
+
+    <!-- #4 -->
+    <!-- Выведите на экран следующую пирамидку: -->
+    <!-- xx
+    xxxx
+    xxxxxx
+    xxxxxxxx
+    xxxxxxxxxx -->
+
+    <div class="task_8-2-4">
+      <button id="subBtn">Click</button>
+      <p id="result"></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
