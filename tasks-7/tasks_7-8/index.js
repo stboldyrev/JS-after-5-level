@@ -124,7 +124,6 @@ const subBtn2 = taskContainer4.querySelector("#subBtn");
 const result = taskContainer4.querySelector("#result");
 
 subBtn2.addEventListener("click", () => {
-  let num = 1;
   let arr = [];
   for (let i = 0; i < 5; i++) {
     let arr2 = [];
