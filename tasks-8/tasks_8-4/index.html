@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      #block {
+        width: 300px;
+        height: 100px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- #1 -->
+    <!-- Дана кнопка и блок с текстом. Текст по высоте не влазит в блок и скрыт. По клику на кнопку распахните блок на всю высоту. -->
+    <div class="task_8-4-1">
+      <button id="subBtn">Click</button>
+      <div id="block">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, at
+          vero. Cumque eum rerum saepe doloremque. Cupiditate quod ipsum cum
+          nihil libero velit ex, sit ducimus ratione vel quas excepturi!
+        </p>
+      </div>
+    </div>
+    <!-- #2 -->
+    <!-- Дана строка с текстом. Получите процентное содержание каждого символа текста в виде объекта, в котором ключами будут символы, а значениями - их процентное содержание. -->
+    <div class="task_8-4-2">
+      <button id="subBtn">Click</button>
+      <p id="paragraph">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint quibusdam
+        itaque molestiae quaerat magni repellat dolore sed autem, distinctio
+        deserunt maiores sapiente rerum nisi debitis eos id. Sint, perspiciatis
+        minima!
+      </p>
+    </div>
+
+    <!-- #3 -->
+    <!-- Дан список ul и инпут. По мере ввода текста в инпут оставляйте видимыми только те li, текст которых начинается на текст, введенный в инпут. -->
+    <div class="task_8-4-3">
+      <input type="text" id="inputText" placeholder="Type something..." />
+      <ul id="list">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Date</li>
+        <li>Elderberry</li>
+        <li>Fig</li>
+        <li>Grapes</li>
+      </ul>
+    </div>
+    <!-- #4 -->
+    <!-- Выведите на экран следующую пирамидку: -->
+    <!-- 1
+    22
+    333
+    4444
+    55555
+    666666
+    7777777
+    88888888
+    999999999 -->
+
+    <div class="task_8-4-4">
+      <button id="subBtn">Click</button>
+      <p id="result"></p>
+    </div>
+    <!-- #5 -->
+    <!-- Дан список городов и их стран, хранящийся в следующей структуре: -->
+    <!-- let data = [
+	{
+		country: 'country1',
+		city:    'city11',
+	},
+	{
+		country: 'country2',
+		city:    'city21',
+	},
+	{
+		country: 'country3',
+		city:    'city31',
+	},
+	{
+		country: 'country1',
+		city:    'city12',
+	},
+	{
+		country: 'country1',
+		city:    'city13',
+	},
+	{
+		country: 'country2',
+		city:    'city22',
+	},
+	{
+		country: 'country3',
+		city:    'city31',
+	},
+    ]
+    Напишите код, которой переделает структуру данных вот в такую:
+    {
+        'country1': [
+            'city11', 'city12', 'city13',
+        ],
+        'country2': [
+            'city21', 'city22'
+        ],
+        'country3': [
+            'city31', 'city32'
+        ],
+    } -->
+
+    <div class="task_8-4-5">
+      <button id="subBtn">Click</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

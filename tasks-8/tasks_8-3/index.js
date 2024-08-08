@@ -52,6 +52,7 @@ subBtn1.addEventListener("click", () => {
 const taskContainer3 = document.querySelector(".task_8-3-3");
 
 const subBtn2 = taskContainer3.querySelector("#subBtn");
+const result = taskContainer3.querySelector("#result");
 
 subBtn2.addEventListener("click", () => {
   let arr = [];
@@ -63,5 +64,5 @@ subBtn2.addEventListener("click", () => {
     arr.push(arr2.join(""));
   }
   console.log(arr.join("\n"));
-  taskContainer3.innerHTML = arr.join("<br>");
+  result.innerHTML = arr.join("<br>");
 });
