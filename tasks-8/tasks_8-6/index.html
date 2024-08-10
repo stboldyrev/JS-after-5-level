@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      .highlight {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- #1 -->
+    <!-- Дан абзац с текстом и кнопка. По клику на кнопку покрасьте каждый символ в случайный цвет так, чтобы у соседних символов были разные цвета. -->
+    <div class="task_8-6-1">
+      <button id="subBtn">Click</button>
+      <p id="paragraph">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+        repellendus illo temporibus vitae labore exercitationem? Ullam velit,
+        exercitationem corrupti voluptates adipisci sunt repellat consectetur
+        totam, officiis et architecto libero cumque!
+      </p>
+    </div>
+    <!-- #2 -->
+    <!-- Дан абзац со словами и инпут. В инпут вводится слово. По клику на кнопку найдите это в абзаце и покрасьте его в красный цвет. -->
+    <div class="task_8-6-2">
+      <input type="text" id="inputText" />
+      <button id="subBtn">Click</button>
+      <p id="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+        excepturi quis praesentium, cumque perferendis quibusdam deleniti sint
+        distinctio reiciendis numquam exercitationem architecto, consequuntur,
+        ex laborum! Deserunt voluptatum facere alias blanditiis?
+      </p>
+    </div>
+    <!-- #3 -->
+    <!-- Дано меню со ссылками. Покрасьте в красный цвет ту ссылку, адрес которой совпадает с URL из адресной строки браузера. -->
+
+    <div class="task_8-6-3">
+      <nav>
+        <ul>
+          <li>
+            <a href="http://127.0.0.1:5500/tasks-8/tasks_8-6/index.html"
+              >Home</a
+            >
+          </li>
+          <li><a href="https://example.com/about">About</a></li>
+          <li><a href="https://example.com/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- #4 -->
+    <!-- Выведите на экран следующую пирамидку: -->
+    <!-- xxxxx
+    xxxx
+    xxx
+    xx
+    x -->
+
+    <div class="task_8-6-4">
+      <button id="subBtn">Click</button>
+    </div>
+    <!-- #5 -->
+    <!-- Дан список событий за определенные даты, хранящийся в следующей структуре: -->
+    <!-- let events = [
+	{
+		date:  '2019-12-29'
+		event: 'name1'
+	},
+	{
+		date:  '2019-12-31'
+		event: 'name2'
+	},
+	{
+		date:  '2019-12-29'
+		event: 'name3'
+	},
+	{
+		date:  '2019-12-30'
+		event: 'name4'
+	},
+	{
+		date:  '2019-12-29'
+		event: 'name5'
+	},
+	{
+		date:  '2019-12-31'
+		event: 'name6'
+	},
+	{
+		date:  '2019-12-29'
+		event: 'name7'
+	},
+	{
+		date:  '2019-12-30'
+		event: 'name8'
+	},
+	{
+		date:  '2019-12-30'
+		event: 'name9'
+	},
+    ]
+    Напишите код, которой переделает структуру данных вот в такую:
+    {
+        '2019-12-29': ['name1', 'name3', 'name5', 'name7'],
+        '2019-12-30': ['name4', 'name8', 'name9'],
+        '2019-12-31': ['name2', 'name6'],
+    } -->
+
+    <div class="task_8-6-5">
+      <button id="subBtn">Click</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
