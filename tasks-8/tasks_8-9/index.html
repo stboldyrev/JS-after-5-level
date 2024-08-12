@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      .submenu {
+        display: none; /* Скрыть подменю по умолчанию */
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .menu-item {
+        position: relative;
+      }
+
+      .menu-item > a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        background-color: #f0f0f0;
+      }
+
+      .submenu a {
+        background-color: #ddd;
+        padding-left: 20px;
+      }
+
+      #myDiv {
+        width: 300px;
+        height: 200px;
+        background-color: lightblue;
+        position: relative;
+        padding: 20px;
+        display: block;
+      }
+
+      #closeBtn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- #1 -->
+    <!-- Дано меню со ссылками. Сделайте так, чтобы по клику на ссылку меню под ней выпадало подменю. -->
+    <div class="task_8-9-1">
+      <nav>
+        <ul id="menu">
+          <li class="menu-item">
+            <a href="#">Menu 1</a>
+            <ul class="submenu">
+              <li>
+                <a href="#">Sub Home</a>
+              </li>
+              <li><a href="#">Sub About</a></li>
+              <li><a href="#">Sub Contact</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#">Menu 2</a>
+            <ul class="submenu">
+              <li>
+                <a href="#">Sub Home</a>
+              </li>
+              <li><a href="#">Sub About</a></li>
+              <li><a href="#">Sub Contact</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#">Menu 3</a>
+            <ul class="submenu">
+              <li>
+                <a href="#">Sub Home</a>
+              </li>
+              <li><a href="#">Sub About</a></li>
+              <li><a href="#">Sub Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- #2 -->
+    <!-- Дан абзац со словами и кнопка. По клику на кнопку покрасьте каждое слово в случайный цвет так, чтобы у соседних абзацев были разные цвета. -->
+    <div class="task_8-9-2">
+      <button id="subBtn">Click</button>
+      <p id="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nemo
+        mollitia aliquid magnam nihil nisi tempora fugiat quasi nostrum
+        consequatur ipsum cum veritatis officia aliquam eligendi facere minima.
+        Voluptatum, qui.
+      </p>
+    </div>
+    <!-- #3 -->
+    <!-- Дан див. У этого дива есть крестик закрытия. Сделайте так, чтобы по клику на крестик, либо на любое место страницы вне дива, этот див прятался. -->
+
+    <div class="task_8-9-3">
+      <div id="myDiv">
+        <span id="closeBtn">&times;</span>
+        This is a div with a close button.
+      </div>
+    </div>
+    <!-- #4 -->
+    <!-- Дан текстареа и ul. В текстареа вводится текст. Сделайте так, чтобы по нажатию Shift + Enter каждая строка текста добавилась в список в виде отдельного тега li. -->
+    <div class="task_8-9-4">
+      <textarea id="textArea"></textarea>
+      <ul id="list"></ul>
+    </div>
+    <!-- #5 -->
+    <!-- Дан такой список дел за определенную дату: -->
+    <!-- let affairs = {
+	'2019-12-31': ['массив дел'],
+	'2018-11-29': ['массив дел'],
+	'2018-11-30': ['массив дел'],
+	'2018-12-27': ['массив дел'],
+	'2019-12-29': ['массив дел'],
+	'2019-12-30': ['массив дел'],
+	'2018-12-30': ['массив дел'],
+	'2018-12-31': ['массив дел'],
+    }
+    Выведите на экран все дела за 2018 год. -->
+
+    <div class="task_8-9-5">
+      <button id="subBtn">Click</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

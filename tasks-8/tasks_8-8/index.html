@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+  </head>
+  <body>
+    <!-- #1 -->
+    <!-- Даны два селекта. В первом селекте выводятся страны. Сделайте так, чтобы во втором селекте выводились города выбранной страны. -->
+    <div class="task_8-8-1">
+      <label for="select1">Choose country</label>
+      <select id="select1">
+        <option value="" disabled selected>Choose country</option>
+      </select>
+      <label for="select2">Choose city</label>
+      <select id="select2">
+        <option value="" disabled selected>Choose country first</option>
+      </select>
+    </div>
+
+    <!-- #2 -->
+    <!-- Даны инпут и кнопка. В инпут вводится число. По клику на кнопку, проверьте, является ли это число совершенным. -->
+    <div class="task_8-8-2">
+      <input type="number" id="inputNum" />
+      <button id="subBtn">Click</button>
+    </div>
+    <!-- #3 -->
+    <!-- Дан список событий за определенные месяцы, хранящийся в следующей структуре: -->
+    <!-- let events = [
+	{
+		date:  '2019-12'
+		event: 'name1'
+	},
+	{
+		date:  '2019-12'
+		event: 'name2'
+	},
+	{
+		date:  '2019-11'
+		event: 'name3'
+	},
+	{
+		date:  '2019-11'
+		event: 'name4'
+	},
+	{
+		date:  '2020-10'
+		event: 'name5'
+	},
+	{
+		date:  '2020-10'
+		event: 'name6'
+	},
+	{
+		date:  '2020-11'
+		event: 'name5'
+	},
+	{
+		date:  '2020-11'
+		event: 'name6'
+	},
+	{
+		date:  '2020-12'
+		event: 'name7'
+	},
+	{
+		date:  '2020-12'
+		event: 'name8'
+	},
+	{
+		date:  '2020-12'
+		event: 'name9'
+	},
+    ]
+    Напишите код, которой переделает структуру данных вот в такую:
+
+    {
+        2019: {
+            11: [массив событий],
+            12: [массив событий],
+        }
+        2020: {
+            10: [массив событий],
+            11: [массив событий],
+            12: [массив событий],
+        }
+    } -->
+
+    <div class="task_8-8-3">
+      <button id="subBtn">Click</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
