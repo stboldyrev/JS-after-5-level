@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      table {
+        border: 1px solid black;
+      }
+
+      tr,
+      td {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- #1 -->
+    <!-- Сгенерируйте таблицу, покрашенную в виде шахматной доски. -->
+    <div class="task_9-6-1">
+      <table id="myTable">
+        <tr>
+          <td>Row 1, Cell 1</td>
+          <td>Row 1, Cell 2</td>
+          <td>Row 1, Cell 3</td>
+          <td>Row 1, Cell 4</td>
+          <td>Row 1, Cell 5</td>
+        </tr>
+        <tr>
+          <td>Row 2, Cell 1</td>
+          <td>Row 2, Cell 2</td>
+          <td>Row 2, Cell 3</td>
+          <td>Row 2, Cell 4</td>
+          <td>Row 2, Cell 5</td>
+        </tr>
+        <tr>
+          <td>Row 3, Cell 1</td>
+          <td>Row 3, Cell 2</td>
+          <td>Row 3, Cell 3</td>
+          <td>Row 3, Cell 4</td>
+          <td>Row 3, Cell 5</td>
+        </tr>
+        <tr>
+          <td>Row 4, Cell 1</td>
+          <td>Row 4, Cell 2</td>
+          <td>Row 4, Cell 3</td>
+          <td>Row 4, Cell 4</td>
+          <td>Row 4, Cell 5</td>
+        </tr>
+        <tr>
+          <td>Row 5, Cell 1</td>
+          <td>Row 5, Cell 2</td>
+          <td>Row 5, Cell 3</td>
+          <td>Row 5, Cell 4</td>
+          <td>Row 5, Cell 5</td>
+        </tr>
+      </table>
+      <button id="subBtn">Click</button>
+    </div>
+    <!-- #2 -->
+    <!-- Дана таблица. Сделайте так, чтобы по клику на любую ячейку в нее писался ее порядковый номер в таблице. -->
+
+    <div class="task_9-6-2">
+      <table id="myTable">
+        <tr>
+          <td>Row 1, Cell 1</td>
+          <td>Row 1, Cell 2</td>
+          <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+          <td>Row 2, Cell 1</td>
+          <td>Row 2, Cell 2</td>
+          <td>Row 2, Cell 3</td>
+        </tr>
+        <tr>
+          <td>Row 3, Cell 1</td>
+          <td>Row 3, Cell 2</td>
+          <td>Row 3, Cell 3</td>
+        </tr>
+      </table>
+      <button id="subBtn">Click</button>
+    </div>
+    <!-- #3 -->
+    <!-- Дана таблица. Сделайте так, чтобы по клику на любую ячейку в нее писался номер ее ряда и колонки в таблице. -->
+
+    <div class="task_9-6-3">
+      <table id="myTable">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <!-- #4 -->
+    <!-- Дано пять чебоксов. Сделайте так, чтобы одновременно можно было отметить не более трех из них. -->
+
+    <div class="task_9-6-4">
+      <input type="checkbox" id="checkbox1" />
+      <label for="checkbox1">Checkbox 1</label><br />
+
+      <input type="checkbox" id="checkbox2" />
+      <label for="checkbox2">Checkbox 2</label><br />
+
+      <input type="checkbox" id="checkbox3" />
+      <label for="checkbox3">Checkbox 3</label><br />
+
+      <input type="checkbox" id="checkbox4" />
+      <label for="checkbox4">Checkbox 4</label><br />
+
+      <input type="checkbox" id="checkbox5" />
+      <label for="checkbox5">Checkbox 5</label><br />
+    </div>
+    <!-- #5 -->
+    <!-- Дан следующий массив: -->
+    <!-- let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+    Из приведенного массива динамически создайте таблицу размером в 5 колонок. -->
+
+    <div class="task_9-6-5">
+      <button id="subBtn">Click</button>
+      <div id="tableContainer"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

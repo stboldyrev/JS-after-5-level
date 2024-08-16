@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      table {
+        border: 1px solid black;
+      }
+
+      tr,
+      td {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- №1 -->
+    <!-- Дан селект и радио кнопочки, количество радио равно количеству пунктов в селекте. Сделайте так, чтобы при выборе пункта в селекте автоматически становилась отмеченной соответствующая радио кнопочка. -->
+    <div class="task_9-5-1">
+      <select id="selectOptions" style="width: 150px; height: 25px">
+        <option value="" selected disabled></option>
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option></select
+      ><br />
+
+      <input type="radio" id="apple" name="color" value="apple" />
+      <label for="apple">Apple</label><br />
+
+      <input type="radio" id="banana" name="color" value="banana" />
+      <label for="banana">Banana</label><br />
+
+      <input type="radio" id="orange" name="color" value="orange" />
+      <label for="orange">Orange</label><br />
+    </div>
+    <!-- №2 -->
+    <!-- Дана таблица. По нажатию на кнопку выделите в таблице красным цветом N случайных ячеек. -->
+
+    <div class="task_9-5-2">
+      <table id="myTable">
+        <tr>
+          <td>Row 1, Cell 1</td>
+          <td>Row 1, Cell 2</td>
+          <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+          <td>Row 2, Cell 1</td>
+          <td>Row 2, Cell 2</td>
+          <td>Row 2, Cell 3</td>
+        </tr>
+        <tr>
+          <td>Row 3, Cell 1</td>
+          <td>Row 3, Cell 2</td>
+          <td>Row 3, Cell 3</td>
+        </tr>
+      </table>
+      <input type="number" id="inputNum" />
+      <button id="subBtn">Click</button>
+    </div>
+    <!-- №3 -->
+    <!-- Дан массив: -->
+    <!-- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    Дан инпут и кнопка. В инпут вводится число. По нажатию на кнопку создайте таблицу, заполненную данными из этого массива, содержащую столько колонок, сколько указано в инпуте. -->
+    <div class="task_9-5-3">
+      <input type="number" id="inputNum" />
+      <button id="subBtn">Click</button>
+      <div id="tableContainer"></div>
+    </div>
+    <!-- №4 -->
+    <!-- Сделайте функцию, которая будет устанавливать правильную форму существительного после числа. Вот как должна работать эта функция: -->
+    <!-- func(1, 'яблоко', 'яблока', 'яблок'); // выведет '1 яблоко'
+        func(2, 'яблоко', 'яблока', 'яблок'); // выведет '2 яблока'
+        func(3, 'яблоко', 'яблока', 'яблок'); // выведет '3 яблока'
+        func(4, 'яблоко', 'яблока', 'яблок'); // выведет '4 яблока'
+        func(5, 'яблоко', 'яблока', 'яблок'); // выведет '5 яблок'
+        Вот пример для для двухзначных чисел:
+
+        func(11, 'яблоко', 'яблока', 'яблок'); // выведет '11 яблок'
+        func(12, 'яблоко', 'яблока', 'яблок'); // выведет '12 яблок'
+        func(21, 'яблоко', 'яблока', 'яблок'); // выведет '21 яблоко'
+        func(23, 'яблоко', 'яблока', 'яблок'); // выведет '23 яблока'
+        Наша функция должна работать для чисел любой длины:
+        func(1223421, 'яблоко', 'яблока', 'яблок'); // выведет '1223421 яблоко' -->
+
+    <div class="task_9-5-4">
+      <button id="subBtn">Click</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
