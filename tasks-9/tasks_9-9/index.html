@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      table {
+        border: 1px solid black;
+      }
+
+      tr,
+      td {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- #1 -->
+    <!-- Дана таблица. Сделайте так, чтобы по клику на любую ячейку в этой ячейке появлялся порядковый номер клика. -->
+    <div class="task_9-9-1">
+      <table id="myTable">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <!-- #2 -->
+    <!-- Дана таблица, заполненная числами по порядку и кнопка. По нажатию на кнопку перемешайте числа в таблице. -->
+    <div class="task_9-9-2">
+      <table id="myTable">
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+      </table>
+      <button id="subBtn">Shuffle</button>
+    </div>
+    <!-- #3 -->
+    <!-- Дан текстареа. В него вводится текст. По потери фокуса найдите самый часто используемый символ этого текста и выведите его в абзац. -->
+    <div class="task_9-9-3">
+      <textarea></textarea>
+      <p id="result"></p>
+    </div>
+    <!-- #4 -->
+    <!-- Даны инпуты. Поставьте первому инпуту в value число 1, через секунду второму число 2, еще через секунду третьему число 3 и так далее пока инпуты не закончатся. Когда инпуты закончатся продолжите нумерацию с первого инпута. -->
+    <div class="task_9-9-4">
+      <input type="text" class="myInput" />
+      <input type="text" class="myInput" />
+      <input type="text" class="myInput" />
+      <input type="text" class="myInput" />
+    </div>
+    <!-- #5 -->
+    <!-- Сделайте функцию, которая будет принимать число, а возвращать это число прописью. Пусть функция работает с числами до 999. Смотрите пример: -->
+    <!-- func(123); // выведет 'сто двадцать три' -->
+    <div class="task_9-9-5">
+      <input type="number" id="inputNum" />
+      <button id="subBtn">Click</button>
+      <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
