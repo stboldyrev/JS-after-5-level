@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        margin: 20px;
+      }
+      .task_10-2-5 table {
+        width: 200px;
+        height: 200px;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      .task_10-2-5 td {
+        border: 1px solid black;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      td {
+        border: 1px solid black;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+      }
+      td.active {
+        background-color: yellow;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- №1 -->
+    <!-- Дана таблица. При клике на ячейку она активируется каким-нибудь цветом. Сделайте так, чтобы ячейки вокруг активированной не активировались. -->
+    <div class="task_10-2-1">
+      <table id="myTable">
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+      </table>
+    </div>
+    <!-- №2 -->
+    <!-- Дана таблица. Сделайте так, чтобы каждую секунду активировалась случайная ячейка таблицы. Одна ячейка не может быть активной два раза подряд. -->
+    <div class="task_10-2-2">
+      <table id="myTable">
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+      </table>
+    </div>
+    <!-- №3 -->
+    <!-- Дан текстареа. Как известно, его размер можно менять, потянув за уголок. Сделайте так, чтобы можно было изменить размер этого текстареа, а затем обновить страницу - и изменения не должны пропасть. -->
+    <div class="task_10-2-3">
+      <textarea id="textArea"></textarea>
+    </div>
+    <!-- №4 -->
+    <!-- Дан инпут и кнопка. По клику на кнопку выведите список список ul всех избыточных чисел из промежутка, заданном значениями инпутов. -->
+    <div class="task_10-2-4">
+      <input type="number" id="inputNum1" />
+      <input type="number" id="inputNum2" />
+      <button id="subBtn">Click</button>
+    </div>
+    <!-- №5 -->
+    <!-- Дана квадратная HTML таблица произвольного размера. По нажатию на кнопку заполните половину таблицу следующим образом: -->
+    <div class="task_10-2-5">
+      <table id="myTable">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <button id="subBtn">Click</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
