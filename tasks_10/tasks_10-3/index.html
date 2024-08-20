@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      .task_10-3-2 button {
+        padding: 10px 20px;
+        margin: 10px 0;
+      }
+
+      #tooltip {
+        position: absolute;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        width: 200px;
+        z-index: 1000;
+        left: 50%;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        transform: translate(-50%, -50%);
+      }
+
+      #tooltip.show {
+        opacity: 1;
+        position: fixed;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 20px;
+      }
+      .task_10-3-4 table {
+        width: 200px;
+        height: 200px;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      .task_10-3-4 td {
+        border: 1px solid black;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body style="height: 1000px">
+    <!-- #1 -->
+    <!-- Сделайте инпут, в который можно ввести только числа. Остальные символы не должны вводится в инпут. -->
+    <div class="task_10-3-1">
+      <input type="text" />
+    </div>
+    <!-- #2 -->
+    <!-- Дан блок. По клику на блок покажите всплывающую подсказку с некоторым достаточно длинным текстом. Покажите подсказку или сверху или снизу с учетом того, чтобы она целиком поместилась на экране и не ушла под прокрутку. -->
+    <div class="task_10-3-2">
+      <button id="subBtn">Click</button>
+      <div id="tooltip">
+        This is a long tooltip text that should be properly positioned.
+      </div>
+    </div>
+    <!-- #3 -->
+    <!-- Дан массив из шести цифр. Проверьте, можно ли собрать из этих цифр счастливый билет. -->
+    <div class="task_10-3-3">
+      <button id="subBtn">Click</button>
+    </div>
+    <!-- #4 -->
+    <!-- Дана прямоугольная таблица. По нажатию на кнопку покрасьте ячейки одной диагонали в красный цвет, а второй диагонали - в зеленый. -->
+
+    <div class="task_10-3-4">
+      <table id="myTable">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <button id="subBtn">Click</button>
+    </div>
+    <!-- #5 -->
+    <!-- Напишите код, который будет генерировать пароль заданного размера. Пароль обязательно должен будет содержать маленькую и большую буквы, цифру и какой-то специальный символ. -->
+    <div class="task_10-3-5">
+      <input type="number" id="inputNumLength" />
+      <button id="subBtn">Click</button>
+      <p id="result"></p>
+    </div>
+    <!-- #6 -->
+    <!-- Дано окно браузера. Сделайте так, чтобы элементы, целиком находящиеся в левой половине окна покрасились в зеленый цвет, целиком находящиеся в правой половине окна - в синий, а находящиеся и там, и там - в красный. -->
+    <!-- Code in index.js -->
+    <!-- #7 -->
+    <!-- Даны два числа. Выведите на экран процесс деления этих чисел в столбик, как в школе. -->
+    <!-- ?? -->
+    <!-- #8 -->
+    <!-- Дана строка, содержащая два числа и математическую операцию между ними: -->
+    <!-- '10 + 20' Напишите код, который вычислит результат записанной математической
+    операции. -->
+
+    <div class="task_10-3-8">
+      <button id="subBtn">Click</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
