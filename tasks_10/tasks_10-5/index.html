@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      .input-container {
+        margin-bottom: 10px;
+      }
+
+      .controls {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 5px;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 20px;
+      }
+      .task_10-5-6 table {
+        width: 200px;
+        height: 200px;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      .task_10-5-6 td {
+        border: 1px solid black;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- #1 -->
+    <!-- На странице юзер выделяет текст. По нажатию Ctrl + Enter запишите этот текст в буфер обмена. -->
+    <div class="task_10-5-1">
+      <p id="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nisi
+        excepturi obcaecati nemo quidem. At, quidem ipsa est, sapiente et ullam
+        quaerat cum fugiat sed quia quibusdam dolores, repellendus laboriosam?
+      </p>
+    </div>
+    <!-- #2 -->
+    <!-- Дан текстареа. В него вводится текст. По нажатию клавиши Tab вставьте в место моргания курсора символ табуляции. -->
+    <div class="task_10-5-2">
+      <textarea></textarea>
+    </div>
+    <!-- #3 -->
+    <!-- Даны инпуты. В любой инпут можно ввести текст и нажать Enter. После этого текст из инпута исчезает. Сделайте так, чтобы каждый инпут запоминал введенные тексты. Над каждым инпутом разместите стрелочки, с помощью которых можно будет возвращать предыдущий введенный текст в инпут. -->
+    <div class="task_10-5-3">
+      <div class="input-container">
+        <div class="controls">
+          <button class="left-btn">←</button>
+          <button class="right-btn">→</button>
+        </div>
+        <input type="text" class="text-input" />
+      </div>
+
+      <div class="input-container">
+        <div class="controls">
+          <button class="left-btn">←</button>
+          <button class="right-btn">→</button>
+        </div>
+        <input type="text" class="text-input" />
+      </div>
+    </div>
+    <!-- #4 -->
+    <!-- Дано число. Выведите на экран процесс разложения числа на простые множители, как в школе. -->
+    <!-- ?? -->
+    <!-- #5 -->
+    <!-- Дан многомерный объект произвольного уровня вложенности: -->
+    <!-- {
+        a: {
+            b: {
+                c: '+++'
+            }
+        },
+    }
+    Сделайте функцию, которая будет возвращать элементы объекта, параметром получая строку с ключами объекта, разделенными точками:
+    func('a.b.c'); // вернет '+++' -->
+
+    <!-- #6 -->
+    <!-- Дана таблица. По нажатию на кнопку заполните ее следующим образом: -->
+
+    <div class="task_10-5-6">
+      <table id="myTable">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <button id="subBtn">Click</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
